@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" 
+    content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>Bootstrap</title>
+  <link rel="stylesheet" href="res/bootstrap/css/bootstrap.css"/>
+  <style type="text/css">
+    .container{
+      border: solid 1px red;
+    }
+        
+  </style>
+</head>
+<body>
+  <div class="container">
+      
+    <h1>Bootstrap - Forms - Input-Group-addon</h1>
+
+    <form class="form-inline">
+      <div class="form-group">
+        <label class="sr-only" for="exampleInputAmount">Amount (in dollars)</label>
+        <div class="input-group">
+          <div class="input-group-addon">$</div>
+          <input type="text" class="form-control" id="exampleInputAmount" placeholder="Amount">
+          <div class="input-group-addon">.00</div>
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary">Transfer cash</button>
+    </form>
+  </div>
+  <script src="res/jquery/jquery.js"></script>
+  <script src="res/bootstrap/js/bootstrap.js"></script>
+</body>
+</html>
+

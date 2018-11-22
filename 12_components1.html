@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" 
+    content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>Bootstrap</title>
+  <link rel="stylesheet" href="res/bootstrap/css/bootstrap.css"/>
+  <style type="text/css">
+    .container{
+      border: solid 1px red;
+    }
+        
+  </style>
+</head>
+<body>
+  <div class="container">
+      
+    <h1>Bootstrap -Components </h1>
+
+    <h2> Glyphicons </h2>
+    <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+
+
+    <button type="button" class="btn btn-default" aria-label="Left Align">
+	  <span class="glyphicon glyphicon-align-left" aria-hidden="true"></span>
+	</button>
+
+	<button type="button" class="btn btn-default btn-lg">
+	  <span class="glyphicon glyphicon-star" aria-hidden="true"></span> Star
+	</button>
+
+	<h2>DIV alerts</h2>
+	<div class="alert alert-warning alert-dismissible" role="alert">
+	  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	  <strong>Warning!</strong> Better check yourself, you're not looking too good.
+	</div>
+
+	<h2>Dropdown</h2>
+	<div class="dropdown">
+	  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+	    Dropdown
+	    <span class="caret"></span>
+	  </button>
+	  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+	    <li><a href="#">Action</a></li>
+	    <li><a href="#">Another action</a></li>
+	    <li><a href="#">Something else here</a></li>
+	    <li role="separator" class="divider"></li>
+	    <li><a href="#">Separated link</a></li>
+	  </ul>
+	</div>
+
+
+	<h2>Labels</h2>
+	<span class="label label-default">Default</span>
+	<span class="label label-primary">Primary</span>
+	<span class="label label-success">Success</span>
+	<span class="label label-info">Info</span>
+	<span class="label label-warning">Warning</span>
+	<span class="label label-danger">Danger</span>
+
+	<h2>Badges</h2>
+	<a href="#">Inbox <span class="badge">42</span></a>
+
+	<button class="btn btn-primary" type="button">
+	  Messages <span class="badge">4</span>
+	</button>
+
+	<h2>Progress bar</h2>
+	<div class="progress">
+	  <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 45%">
+	    <span class="sr-only">45% Complete</span>
+	  </div>
+	</div>
+
+
+
+	
+  </div>
+  <script src="res/jquery/jquery.js"></script>
+  <script src="res/bootstrap/js/bootstrap.js"></script>
+</body>
+</html>
+
+
+

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" 
+		content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<title>Bootstrap</title>
+	<link rel="stylesheet" href="res/bootstrap/css/bootstrap.css"/>
+	<style type="text/css">
+		.container-fluid{
+			border: solid 1px red;
+		}
+		.row{
+			border: solid 1px blue;
+		}
+		.col-xs-6, .col-sm-3{
+			border: solid 1px black;
+			background-color: #eee;
+		}
+		
+	</style>
+</head>
+<body>
+	<div class="container-fluid">
+	  	
+		<h1>Bootstrap CSS - Responsive Column Resets</h1>
+
+	  	<div class="row">
+		  <div class="col-xs-6 col-sm-3">.col-xs-6 .col-sm-3<br>Resize your viewport or check it out on your phone for an example. </div>
+		  <div class="col-xs-6 col-sm-3">.col-xs-6 .col-sm-3</div>
+
+		  <!-- Add the extra clearfix for only the required viewport -->
+		  <!-- <div class="clearfix visible-xs-block"></div> -->
+
+		  <div class="col-xs-6 col-sm-3">.col-xs-6 .col-sm-3</div>
+		  <div class="col-xs-6 col-sm-3">.col-xs-6 .col-sm-3</div>
+		</div>
+
+	</div>
+	<script src="res/jquery/jquery.js"></script>
+	<script src="res/bootstrap/js/bootstrap.js"></script>
+</body>
+</html>
